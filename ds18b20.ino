@@ -15,8 +15,8 @@ SoftDMD dmd(1, 1);
 DMD_TextBox box(dmd, 1, 1, 32, 16);
 
 // //======= lamp =======
-const int Trigger_Lamp = 3;
-const int Trigger_Alarm = 5;
+const int Trigger_Lamp = 5;
+const int Trigger_Alarm = 4;
 int temp;
 int Standard;
 
