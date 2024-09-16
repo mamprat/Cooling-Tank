@@ -38,7 +38,8 @@ void setup(){
     dmd.drawString(2, 0, String("St"));
     dmd.drawString(19, 0, String("Pv"));
     dmd.drawString(2, 8, String("25"));
-    dmd.drawString(19, 8, String("14"));
+    dmd.drawString(19, 8, String("&&"));
+    //dmd.drawString(19, 8, String("14"));
     Serial.println("Error caonnecting to MLX sensor. Check wiring.");
     while (1);
   };
